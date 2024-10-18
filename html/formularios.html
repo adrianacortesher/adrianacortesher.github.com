@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+
+</head>
+<link rel="stylesheet" type="text/css" href="../css/imagenes.css"></link>
+<style>
+	form {
+		width: 50%;
+		height: auto;
+		padding: 10px;
+		background-color: #DA84F1;
+		margin: 0 auto;
+	}
+	label {
+		padding-bottom: 10px;
+		padding-top: 10px;
+	}
+	label,input {
+		display: block;
+		margin-left: 10px;
+	}
+	input[type=text],input[type=password],input[type=number],select,input[type=tel],input[type=date],input[type=range]{
+		width: 90%;
+		color: #4D1C77;
+		padding: 5px;
+		border-radius: 5px;
+	}
+	input[type=submit],input[type=reset] {
+		width: 20%; 
+		background-color: #450F60;
+		color: azure;
+		margin: 20px auto;
+		padding: 5px;
+		border: 2px solid;
+		border-color: #E0B9EC;
+	
+	}
+	input[type=color]{
+		width: 20%;
+		height: 30px;
+	}
+	select {
+		margin-left: 10px;
+	}
+	
+	input[type=text]:focus {
+		background-color: #EDD9AE ;
+	}
+	input[type=password]:focus {
+		background-color: #EDD9AE ;
+	}
+	
+	input[type=number]:focus {
+		background-color: #EDD9AE ;
+	}
+	
+	select:focus {
+		background-color: #EDD9AE ;
+	}
+	
+	input[type=date]:focus {
+		background-color: #EDD9AE ;
+	}
+	input[type=color]:focus {
+		background-color: #EDD9AE ;
+	}
+	input[type=range]:focus {
+		background-color: #EDD9AE ;
+	}
+	input[type=tel]:focus {
+		background-color: #EDD9AE ;
+	}
+</style>
+
+<body>
+
+<header>
+	<h1>Chismográfo</h1>
+</header>
+<nav>
+	<ul class="menu">
+		<li class="boton"><a href="../index.html"> ¿Quién soy? </a></li>
+		<li class="boton"> <a href="listas.html">Mis gustos</a></li>
+		<li class="boton"><a href="enlaces.html">Tacos de michi</a> </li>
+		<li class="boton"> <a href="imagenes.html">Albúm</a></li>
+		<li class="boton"><a href="audio.html">Música</a></li>
+		<li class="boton"><a href="video.html">Memes</a></li>
+		<li class="boton"><a href="tablas.html">Mis amigos</a> </li>
+		<li class="boton"><a href="formularios.html">Chismográfo</a></li>
+	</ul>
+</nav>
+<main>
+	<section>
+		<a name="1"></a>
+		<h2> Formulario Usuario 1</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque commodi nam blanditiis, voluptates, doloremque ullam quas libero labore. Ut temporibus natus quae, magnam, nam expedita sequi perferendis nostrum magni ex deleniti vero recusandae cum, laboriosam officiis repellendus! Doloremque reiciendis ipsam reprehenderit itaque doloribus quae corporis tenetur, ullam! Culpa, mollitia odit placeat magni. Beatae ex suscipit fuga mollitia eligendi velit, impedit cum adipisci ab provident aliquid, quisquam modi molestiae porro tenetur labore amet debitis, nemo! Minima, dolore quis labore. Voluptatibus voluptas accusamus alias sint autem, iste repudiandae sequi repellendus ex error neque debitis praesentium fugit eaque iusto hic quo libero velit? </p>
+		<form action="" method="get">
+			<label>Nombre: 
+			</label>
+			<input type="text" id="nombre" name="nombre">
+			<label> Contraseña:
+			</label>
+			<input type="password" id="contrasena" name="contraseña">
+			<input type="submit" value="Enviar">
+			
+		</form>
+		<a href="#menu_interno"><img class="icon"src="../medios/image/icon/gatito.ico"></a>
+	</section>
+	
+	<section>
+		<a name="2"></a>
+		<h2> Formulario Usuario 1</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque commodi nam blanditiis, voluptates, doloremque ullam quas libero labore. Ut temporibus natus quae, magnam, nam expedita sequi perferendis nostrum magni ex deleniti vero recusandae cum, laboriosam officiis repellendus! Doloremque reiciendis ipsam reprehenderit itaque doloribus quae corporis tenetur, ullam! Culpa, mollitia odit placeat magni. Beatae ex suscipit fuga mollitia eligendi velit, impedit cum adipisci ab provident aliquid, quisquam modi molestiae porro tenetur labore amet debitis, nemo! Minima, dolore quis labore. Voluptatibus voluptas accusamus alias sint autem, iste repudiandae sequi repellendus ex error neque debitis praesentium fugit eaque iusto hic quo libero velit? </p>
+		<form action="">
+			<label>Nombre: 
+			</label>
+			<input type="text" id="nombre" name="nombre">
+			<label> Edad:
+			</label>
+			<input type="number" id="edad" name="edad" min="18" max="90">
+			<label for="estado"> Selecciona tu estado:
+			</label>
+			<select id="estado" name="estado">
+				<option value="Yucatán">Yucatán</option>
+				<option value="Puebla">Puebla</option>
+				<option value="Jalisco">Jalisco</option>
+				<option value="Hidalgo">Hidalgo</option>
+				<option value="San Luis Potosi">San Luis Potosi</option>
+			</select>
+			<input type="submit" value="Enviar">
+		</form>
+		<a href="#menu_interno"><img class="icon"src="../medios/image/icon/gatito.ico"></a>
+	</section>
+	<section>
+		<a name="3"></a>
+		<h2> Formulario Usuario 1</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque commodi nam blanditiis, voluptates, doloremque ullam quas libero labore. Ut temporibus natus quae, magnam, nam expedita sequi perferendis nostrum magni ex deleniti vero recusandae cum, laboriosam officiis repellendus! Doloremque reiciendis ipsam reprehenderit itaque doloribus quae corporis tenetur, ullam! Culpa, mollitia odit placeat magni. Beatae ex suscipit fuga mollitia eligendi velit, impedit cum adipisci ab provident aliquid, quisquam modi molestiae porro tenetur labore amet debitis, nemo! Minima, dolore quis labore. Voluptatibus voluptas accusamus alias sint autem, iste repudiandae sequi repellendus ex error neque debitis praesentium fugit eaque iusto hic quo libero velit? </p>
+	  <form action="">
+			<label>Nombre: 
+			</label>
+			<input type="text" id="nombre" name="nombre">
+		  <label>Género: 
+			</label>
+			 <table>
+				 <tr>
+					 <td><input type="radio" id="masculino" name="genero" value="masculino"> </td>
+			<td>
+			  <label for="masculino" >
+				Masculino
+			</label></td>
+				 </tr>
+				 <tr>
+					 <td><input type="radio" id="femenino" name="genero" value="femenino"></td>
+			<td><label for="femenino" >
+				Femenino
+			</label> </td>
+				 </tr>
+				<tr> 
+					<td> <input type="radio" id="otro" name="genero" value="otro"> </td>
+			<td><label for="otro" >
+				Otro
+			</label> </td>
+			</tr>
+			</table>
+		<label for="musica"> ¿Cuál es tu género musical favorito?</label>
+			
+				 <input style=" display: inline-block" type="checkbox" name="musica" value="reggaeton" id="musica_0">
+			  <label style=" display: inline-block">
+			    Reggaeton</label>
+			  <br>
+				 <input style=" display: inline-block"  type="checkbox" name="musica" value="indie" id="musica_1">
+			  <label style=" display: inline-block">Indie</label>
+			  <br>
+				<input style=" display: inline-block" type="checkbox" name="musica" value="nortena" id="musica_2">
+			    
+			  <label style=" display: inline-block">Norteña</label>
+			  <br>
+			 <input  style=" display: inline-block" type="checkbox" name="musica" value="rock" id="musica_3">
+			    	  
+			  <label style=" display: inline-block"> Rock</label>
+			  <br>
+				<input style=" display: inline-block"  type="checkbox" name="musica" value="jazz" id="musica_4">
+			    
+			  <label style=" display: inline-block"> Jazz</label>
+			    
+			  <br>
+				  <input style=" display: inline-block" type="checkbox" name="musica" value="banda" id="musica_5">
+			  <label style=" display: inline-block">
+			    Banda</label>
+			  <br>
+		  <input type="submit" value="Enviar">
+	    
+		</form>
+		<a href="#menu_interno"><img class="icon"src="../medios/image/icon/gatito.ico"></a>
+	</section>
+	
+  <section>
+	  <a name="4"></a>
+	  <h2>Chismográfo</h2>
+	  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque commodi nam blanditiis, voluptates, doloremque ullam quas libero labore. Ut temporibus natus quae, magnam, nam expedita sequi perferendis nostrum magni ex deleniti vero recusandae cum, laboriosam officiis repellendus! Doloremque reiciendis ipsam reprehenderit itaque doloribus quae corporis tenetur, ullam! Culpa, mollitia odit placeat magni. Beatae ex suscipit fuga mollitia eligendi velit, impedit cum adipisci ab provident aliquid, quisquam modi molestiae porro tenetur labore amet debitis, nemo! Minima, dolore quis labore. Voluptatibus voluptas accusamus alias sint autem, iste repudiandae sequi repellendus ex error neque debitis praesentium fugit eaque iusto hic quo libero velit? </p>
+	  <form action="">
+			<label>Nombre: 
+			</label>
+			<input type="text" id="nombre" name="nombre">
+		  <label>Género: 
+		</label>
+			 <table>
+				 <tr>
+					 <td><input type="radio" id="masculino" name="genero" value="masculino"> </td>
+			<td>
+			  <label for="masculino" >
+				Masculino
+			</label></td>
+				 </tr>
+				 <tr>
+				<td><input type="radio" id="femenino" name="genero" value="femenino"></td>
+			<td><label for="femenino" >
+				Femenino
+			</label> </td>
+				 </tr>
+				<tr> 
+					<td> <input type="radio" id="otro" name="genero" value="otro"> </td>
+			<td><label for="otro"> Otro </label> </td>
+			</tr>
+			</table>
+			<label> Edad: </label>
+			<input type="number" id="edad" name="edad" min="15" max="30">
+			<label for="estado"> De que carrera eres:
+			</label>
+			<select id="estado" name="estado">
+				<option value="Yucatán">Arquitectura</option>
+				<option value="Puebla">Diseño Gráfico</option>
+				<option value="Jalisco">Urbanismo</option>
+				<option value="Hidalgo">Ingenieria</option>
+				<option value="San Luis Potosi">Derecho</option>
+			</select>
+			
+			<label for="musica"> ¿Cuál es tu estación favorita del año?</label>
+			
+				 <input style=" display: inline-block" type="checkbox" name="estacion" value="primavera" id="estacion_0">
+			  <label style=" display: inline-block">
+			    Primavera</label>
+			  <br>
+				 <input style=" display: inline-block"  type="checkbox" name="estacion" value="verano" id="estacion_1">
+			  <label style=" display: inline-block">Verano</label>
+			  <br>
+				<input style=" display: inline-block" type="checkbox" name="estacion" value="otono" id="estacion_2">
+			    
+			  <label style=" display: inline-block">Otoño</label>
+			  <br>
+			 <input  style=" display: inline-block" type="checkbox" name="estacion" value="invierno" id="estacion_3">
+			    	  
+			  <label style=" display: inline-block">Invierno</label>
+			  <br>
+				
+			<label> ¿Quién es tu crush?
+			</label>
+			<input type="password" id="crush" name="crush">
+			<label>Del 1 al 5 ¡Qué tanto te gustan las papas?</label>
+		<input type="range" id="papitas" name="papitas" min="1" max="5" >
+			
+			<label for="favcolor">¿Cuál es tu color favorito?</label>
+	    <input type="color" id="favcolor" name="favcolor" value="#6c4675">
+			
+			<label for="cumpleanos">¿Cuándo es tu cumpleaños?</label>
+  			<input type="date" id="cumpleanos" name="cumpleanos">
+		<label>¿Cuál es tu número de celular?</label>
+		  <input type="tel" id="cel" name="cel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890" required>
+<input type="submit" value="Enviar" style=" display: inline-block">
+		  <input type="reset" value="Borrar" style=" display: inline-block">
+		</form>
+	  <a href="#menu_interno"><img class="icon"src="../medios/image/icon/gatito.ico"></a>
+    </section>
+</main>
+	<nav>
+	<a name="menu_interno">
+	<ul class="menu"> 
+		
+		<li class="boton"><a href="#1">Form 1</a> </li>
+		<li class="boton"><a href="#2">Form 2</a> </li>
+		<li class="boton"><a href="#3">Form 3</a> </li>
+		<li class="boton"><a href="#4">Form 4</a> </li>
+	</ul>
+</nav>
+<footer>
+  <h5>Elaborado por: Beatriz Adriana Cortes Hernández</h5>	
+</footer>
+</body>
+
+</html>

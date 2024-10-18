@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tablas</title>
+
+</head>
+<link rel="stylesheet" type="text/css" href="../css/imagenes.css"></link>
+<style type="text/css">
+	.tabla1  {
+		margin: 0 auto;
+		color: #855E6E ;
+		width: 100%;
+		border-style: solid;
+		border-width: 5px;
+		border-color: #855E6E;
+		overflow-x: auto;
+	}
+	.tabla1 th {
+		background-color: #855E6E;
+		color: white;
+	}
+	.tabla1 td {
+		background-color: #CE7095 ;
+		color: white;
+		text-align: left;
+		border-radius: 5px;
+		margin: 10px;
+		border-style: solid;
+		border-color: #FFB2C1;
+		border-width: 5px;
+		padding: 5px;
+	}
+	.tabla2 {
+		width: 600px;
+		border-collapse: collapse;
+		margin: 0 auto;
+		
+	}
+	.tabla2 th {
+		background-color: #855E6E;
+		color: white;
+	}
+	.tabla2 td {
+		background-color: #CE7095 ;
+		
+		text-align: left;
+		color: #F7F1E1;
+		height: 30px;
+		padding: 5px;
+		width: 150px;
+		border-color:  #855E6E;
+		border-style: dashed;
+		border-width: 3px;
+
+	}
+	.celdacentrada {
+		text-align: center;
+		padding: 0px;
+		background-color: #FFB2C1;
+		width: 100px;
+	}
+
+	.tabla3 {
+		width: 100%;
+
+	}
+	.tabla3  tr td {
+		padding: 5px;
+		text-align: center;
+		border-radius: 30px;
+		
+		 	}
+	.tabla3 tbody tr:nth-child(even) {
+		background-color: mediumpurple;
+		color: #463259 ;
+		 	}
+	.tabla3 tbody tr:nth-child(odd) {
+		background-color: lightpink;
+		color: #463259;
+		
+	}
+	.tabla3 thead tr {
+		background-color: navajowhite;
+		border-radius: 30px;
+	}
+	.tabla4 {
+		width: 80%;
+		margin: auto;
+	}
+	.tabla4  tr:hover {
+		background-color: fuchsia;
+		color: azure;
+	}
+	.tabla4 thead tr {
+		background-color: mediumpurple;
+		padding: 10px;
+	}
+	.tabla4 th{
+		background-color: mediumpurple;
+		padding: 10px;
+	}
+
+	.tabla4 tbody tr {
+		background-color: #F279C8;
+		color: #463259;
+		
+	}
+	.tabla4  tr td {
+		padding: 10px;
+		text-align: center;
+				
+		 	}
+
+</style>
+<body>
+
+<header>
+	<h1>Mis amigos</h1>
+</header>
+<nav>
+	<ul class="menu">
+		<li class="boton"><a href="../index.html"> ¿Quién Soy?</a></li>
+		<li class="boton"> <a href="listas.html">Mis Gustos</a></li>
+		<li class="boton"><a href="enlaces.html">Tacos de michi</a> </li>
+		<li class="boton"> <a href="imagenes.html">Albúm</a></li>
+		<li class="boton"><a href="audio.html">Música</a></li>
+		<li class="boton"><a href="video.html">Memes</a></li>
+		<li class="boton"><a href="tablas.html">Mis amigos</a> </li>
+		<li class="boton"><a href="formularios.html">Chismográfo</a></li>
+	</ul>
+</nav>
+<main>
+	<section>
+		<a name="quienes"></a>
+		<h2>¿Quienes son?</h2>
+		<p>En esta tabla, se mencionará el nombre de mis amigos, que edad tienen y carrera universitaria están cursando actualmente </p>
+		<table class="tabla1" border="1">
+		<thead>
+			<tr>
+				<th>
+					Edad
+				</th>
+				<th>
+					Nombre
+				</th>
+				<th>
+					Apellido paterno
+				</th>
+				<th>
+					Apellido Materno
+				</th>
+				<th>
+					Carrera
+				</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>
+					21
+				</td>
+				<td>Karina</td>
+				<td>Celis</td>
+				<td>Mendieta</td>
+				<td>Diseño Grafico</td>
+			</tr>
+			<tr>
+				<td>
+					21
+				</td>
+				<td>Julián</td>
+				<td>Ortega</td>
+				<td>Casiano</td>
+				<td>Artes Plásticas</td>
+			</tr>
+			<tr>
+				<td>
+					22
+				</td>
+				<td>Carla</td>
+				<td>Hernández</td>
+				<td>Escobar</td>
+				<td>Diseño Gráfico</td>
+			</tr>
+			<tr>
+				<td>
+					25
+				</td>
+				<td>Alan</td>
+				<td>De la Cruz </td>
+				<td>Ontiveros</td>
+				<td>Diseño Gráfico
+				</td>
+			</tr>
+			<tr>
+				<td>
+					21
+				</td>
+				<td>Dianet </td>
+				<td>Barranco</td>
+				<td>Barranco</td>
+				<td>Diseño Grafico</td>
+			</tr>
+			<tr>
+				<td>
+					21
+				</td>
+				<td>Brenda</td>
+				<td>Paez</td>
+				<td>Lira</td>
+				<td>Diseño Grafico</td>
+			</tr>
+		</tbody>
+		<tfoot></tfoot>
+		</table>
+		<a href="#menu_interno"><img class="icon"src="../medios/image/icon/gatito.ico"></a>
+
+	</section>
+	<section>
+		<a name="transporte"></a>
+		<h2>Transporte</h2>
+		<p>En esta tabla, estarán colocados datos acerca de cuanto gasta cada uno diariamente entre semana en sus transportes ya se a la universidad u otros lugares </p>
+		<table class="tabla2">
+			<thead>
+				<tr>
+					<th style="width: 200px;">Nombre</th>
+					<th  style= "width: 100px;">Edad</th>
+					<th style="width: 200px;" colspan="2">¿Cuántas rutas tomas?</th>
+					<th>Dinero</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td >Julian Ortega Casiano</td>
+					<td style="text-align: center; padding: 0px;  "  > 21</td>
+					<td >Tiene auto</td>
+					<td >Tiene auto</td>
+					<td class="celdacentrada" style="background-color: #FFB2C1; text-align: center;">$30</td>
+				</tr>
+				<tr>
+					<td >Karina Celis Mendieta</td>
+					<td style="text-align: center;padding: 0px; ">21</td>
+					<td >1</td>
+					<td >1</td>
+					<td class="celdacentrada" style="background-color: #FFB2C1; text-align: center;">$20</td>
+				</tr>
+				<tr>
+					<td> Carla Hernandez Escobar </td>
+					<td style="text-align: center; padding: 0px;">22</td>
+					<td >1</td>
+					<td >2</td>
+					<td class="celdacentrada" style="background-color: #FFB2C1; text-align: center;">$30</td>
+				</tr>
+				<tr>
+					<td >Dianet Barranco Barranco</td>
+					<td style="text-align: center ;padding: 0px; ">21</td>
+					<td >2</td>
+					<td >2</td>
+					<td class="celdacentrada" style="background-color: #FFB2C1; text-align: center;">$30</td>
+				</tr>
+				<tr>
+					<td s>Alan de la Cruz Ontiveros</td>
+					<td style="text-align: center; padding: 0px;  width: 100px;">25</td>
+					<td >2</td>
+					<td >2</td>
+					<td class="celdacentrada" style="background-color: #FFB2C1; text-align: center;">$24</td>
+				</tr>
+				<tr>
+					<td s>Brenda Paez Lira</td>
+					<td style="text-align: center; padding: 0px;  width: 100px;">21</td>
+					<td >1</td>
+					<td >1</td>
+					<td class="celdacentrada" style="background-color: #FFB2C1; text-align: center;">$20</td>
+				</tr>
+				<tfoot>
+					<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class="celdacentrada"
+					 style=" background-color: #855E6E; color: white;">$144</td>
+					</tr>
+				</tfoot>
+			</tbody>	
+		</table>
+	<a href="#menu_interno"><img class="icon"src="../medios/image/icon/gatito.ico"></a>
+	</section> 
+	<section>
+		<a name="hobbies"></a>
+		<h2>Hobbies</h2>
+		<p>Esta tabla muestra a cada uno de mis amigos sus hobbies favoritos y su género de música favorito</p>
+		<table class="tabla3">
+			<thead>
+				<tr>
+					<th>Nombre</th>
+					<th>Edad</th>
+					<th>Hobbie favorito</th>
+					<th>Hobbie favorito</th>
+					<th>Género de música</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Karina Celis Mendieta</td>
+					<td>21</td>
+					<td>Ver series</td>
+					<td>Andar en bicicleta</td>
+					<td>Pop y Reggaetón</td>
+				</tr>
+				<tr>
+					<td>Carla Hernández Escobar</td>
+					<td>22</td>
+					<td>Ir al Gimnasio</td>
+					<td>Bailar</td>
+					<td>Indie pop mexicano</td>
+				</tr>
+				<tr>
+					<td>Dianet Barranco Barranco</td>
+					<td>21</td>
+					<td>Ver Streams</td>
+					<td>Dibujar</td>
+					<td>Rock </td>
+				</tr>
+				<tr>
+					<td>Alan de la Cruz Ontiveros</td>
+					<td>25</td>
+					<td>Ver Tiktok</td>
+					<td>Ver películas</td>
+					<td>Pop y Rock</td>
+				</tr>
+				<tr>
+					<td>Brenda Paez Lira</td>
+					<td>21</td>
+					<td>Tomar fotos</td>
+					<td>Ir a carreras de autos</td>
+					<td>Corridos, banda y reggaeton</td>
+				</tr>
+				
+			</tbody>
+			<tfoot>
+				
+			</tfoot>
+			
+		</table>
+		<a href="#menu_interno"><img class="icon"src="../medios/image/icon/gatito.ico"></a>
+	</section>
+			<section>
+				<a name="gustos"></a>
+		<h2>Gustos</h2>
+		<p>En esta tabla se mostraran los gustos que tienen cada uno en cuanto a color favorito, comida favorita, animal favorito y pelicula favorita </p>
+		<table class="tabla4">
+			<thead>
+				<tr>
+					<th>Nombre</th>
+					<th>Color favorito</th>
+					<th>Animal favorito</th>
+					<th>Comida favorito</th>
+					<th>Pelicula favorita</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Carla Hernández Escobar</td>
+					<td>Azul</td>
+					<td>Gato</td>
+					<td>Tacos de asada</td>
+					<td>Mamma mia/ la propuesta</td>
+				</tr>
+				<tr>
+					<td>Dianet Barranco Barranco</td>
+					<td>Negro y morado</td>
+					<td>Gato</td>
+					<td>Chilaquiles</td>
+					<td>Dune</td>
+				</tr>
+				<tr>
+					<td>Alan de la Cruz Ontiveros</td>
+					<td>Rojo y azul</td>
+					<td>Perros</td>
+					<td>Chuleta y papas fritas</td>
+					<td>Spiderman de Sam raimi</td>
+				</tr>
+				<tr>
+					<td>Karina Celis Mendieta</td>
+					<td>Lila</td>
+					<td>Perro</td>
+					<td>Papas a la francesa</td>
+					<td>Harry Potter</td>
+				</tr>
+				<tr>
+					<td>Brenda Paez Lira</td>
+					<td>Rosa</td>
+					<td>Caballos</td>
+					<td>Pasta en cualquier presentación </td>
+					<td>Aladdin</td>
+				</tr>
+				
+			</tbody>
+			<tfoot>
+				
+			</tfoot>
+			
+		</table>
+				<a href="#menu_interno"><img class="icon"src="../medios/image/icon/gatito.ico"></a>
+	</section>
+</main>
+<nav>
+	<a name="menu_interno">
+	<ul class="menu"> 
+		
+		<li class="boton"><a href="#quienes">¿Quienes son?</a> </li>
+		<li class="boton"><a href="#transporte">Transporte</a> </li>
+		<li class="boton"><a href="#hobbies">Hobbies</a> </li>
+		<li class="boton"><a href="#gustos">Gustos</a> </li>
+	</ul>
+</nav>
+<footer>
+	<h5>Elaborado por: Beatriz Adriana Cortes Hernández</h5> 
+</footer>
+</body>
+
+</html>
