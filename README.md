@@ -1,1 +1,0 @@
-# adrianacortesher.github.com
